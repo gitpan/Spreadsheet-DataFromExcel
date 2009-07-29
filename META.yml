@@ -1,0 +1,23 @@
+---
+name: Spreadsheet-DataFromExcel
+version: 0.0101
+author:
+  - "'Zoffix <'zoffix@cpan.org'>"
+abstract: read a sheet from Excel file into a simple arrayref of arrayrefs
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+requires:
+  Spreadsheet::ParseExcel: 0.49
+configure_requires:
+  Module::Build: 0.34
+provides:
+  Spreadsheet::DataFromExcel:
+    file: lib/Spreadsheet/DataFromExcel.pm
+    version: 0.0101
+generated_by: Module::Build version 0.34
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
