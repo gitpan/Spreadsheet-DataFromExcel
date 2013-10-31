@@ -10,11 +10,10 @@ my $builder = Module::Build->new(
     build_requires => {
         'Test::More' => 0,
     },
-    build_recommends => {
-        'App::ZofCMS::Test::Plugin' => '0.0104',
-    },
+    configure_requires => { 'Module::Build' => 0, },
     requires => {
         'Spreadsheet::ParseExcel' => 0.49,
+        perl                      => '5.006',
     },
     add_to_cleanup      => [ 'Spreadsheet-DataFromExcel-*' ],
     create_makefile_pl => 'traditional',
