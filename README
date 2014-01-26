@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Spreadsheet-DataFromExcel,
-version 1.001002:
+version 1.001003:
 
   read a sheet from Excel file into a simple arrayref of arrayrefs
 
